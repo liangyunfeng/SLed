@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rv_dot_color_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingStart="@dimen/dot_color_dialog_padding_start"
+    android:paddingEnd="@dimen/dot_color_dialog_padding_start"
+    android:scrollbars="none">
+
+</android.support.v7.widget.RecyclerView>

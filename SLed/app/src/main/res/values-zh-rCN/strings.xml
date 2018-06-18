@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">炫酷霓虹灯</string>
+    <string name="app_versionName">炫酷霓虹灯 V2.0</string>
+    <string name="led_mode">led模式</string>
+    <string name="flash_mode">荧光字</string>
+    <string name="music_mode">音乐模式</string>
+    <string name="glow_stick_mode">荧光棒</string>
+    <string name="save_settings">save settings</string>
+    <string name="full_screen">全屏显示</string>
+    <string name="str_led_setting_input_title">请输入您想要的文字：</string>
+    <string name="str_led_setting_speed_title">请选择移动速度：</string>
+    <string name="edit_text_hint">请输入跑马灯文字</string>
+    <string name="scroll_direction">移动方向</string>
+    <string name="scroll_direction_left">左</string>
+    <string name="scroll_direction_right">右</string>
+    <string name="led_string_background">背景颜色</string>
+    <string name="led_string_color">文字颜色</string>
+    <string name="scroll_speed">移动速度</string>
+    <string name="scroll_text">跑马灯文字</string>
+    <string name="scroll_hint">LED Marquee</string>
+    <string name="on">开</string>
+    <string name="off">关</string>
+    <string name="rainbow">彩虹字效果</string>
+    <string name="input_text">点击输入跑马灯文字</string>
+    <string name="text_color_not_allow">您已打开彩虹字模式，无法设置字体颜色</string>
+    <string name="bg_color_not_allow">您已打开LED模式，无法设置背景颜色</string>
+    <string name="hand_writing_background">背景</string>
+    <string name="hand_writing_paint_size">画笔</string>
+    <string name="hand_writing_paint_color">颜料</string>
+    <string name="hand_writing_flash">闪烁</string>
+    <string name="hand_writing_preview">预览</string>
+    <string name="str_hw_background_color">背景颜色</string>
+    <string name="str_hw_paint_color">画笔颜色</string>
+    <string name="str_hw_paint_size">笔尖大小</string>
+    <string name="str_hw_on">开启</string>
+    <string name="str_hw_off">关闭</string>
+    <string name="str_stick_background_color">背景颜色</string>
+    <string name="str_stick_text_color">文字颜色</string>
+    <string name="str_stick_flash_switch">闪烁</string>
+    <string name="str_stick_flash_color">闪烁颜色</string>
+    <string name="str_stick_flash_speed">闪烁速度</string>
+    <string name="str_stick_color_pick_dialog_title">预设荧光配色</string>
+    <string name="str_stick_color_pick_dialog_ok">选择颜色</string>
+    <string name="str_stick_color_pick_dialog_cancel">取消</string>
+    <string name="str_function_not_support">暂不支持该功能，敬请期待！</string>
+</resources>

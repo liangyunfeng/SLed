@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:dialogTitle="@string/str_led_setting_input_title"
+        android:key="marqueeTextPreference"
+        android:layout="@layout/pref_custom"
+        android:title="@string/input_text" />
+
+    <SwitchPreference
+        android:key="scroll_direction"
+        android:layout="@layout/pref_custom"
+        android:summary="@string/scroll_direction_left"
+        android:title="@string/scroll_direction" />
+
+    <SwitchPreference
+        android:key="led_effect"
+        android:layout="@layout/pref_custom"
+        android:summary="@string/off"
+        android:title="@string/led_mode" />
+
+    <SwitchPreference
+        android:key="rainbow_effect"
+        android:layout="@layout/pref_custom"
+        android:summary="@string/off"
+        android:title="@string/rainbow" />
+
+    <ListPreference
+        android:defaultValue="4"
+        android:dialogTitle="@string/str_led_setting_speed_title"
+        android:entries="@array/speed_list"
+        android:entryValues="@array/speed_list_string"
+        android:key="scrollSpeed"
+        android:layout="@layout/pref_custom"
+        android:title="@string/scroll_speed" />
+
+    <SwitchPreference
+        android:key="shark"
+        android:layout="@layout/pref_custom"
+        android:summary="@string/off"
+        android:title="@string/flash_mode" />
+</PreferenceScreen>

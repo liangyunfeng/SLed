@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">#87cefa</item>
+    </style>
+
+    <style name="MainActivityTheme" parent="android:Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="ActivityTheme" parent="android:Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:colorPrimary">#131234</item>
+    </style>
+
+    <style name="StickActivityTheme" parent="android:Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:colorPrimary">#131234</item>
+    </style>
+
+    <style name="WinsetTheme.Main" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorPrimary">#ff9800</item>
+        <item name="android:colorPrimaryDark">#d7452e</item>
+        <item name="android:contentInsetEnd">0dp</item>
+
+    </style>
+
+    <style name="base_tab_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="main_bottom_tab_style" parent="@style/base_tab_style">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="led_main_text_style">
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:textColor">@color/led_main_text_color</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="style_color_view">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="style_gs_setting_text">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/glow_stick_setting_text_color</item>
+    </style>
+
+    <style name="style_hand_writing_tab_text">
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/hand_writing_tab_text_color</item>
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <!-- Active thumb color & Active track color(30% transparency)
+            switch 打开时的拇指按钮的颜色 轨迹颜色默认为30%这个颜色 -->
+        <item name="colorControlActivated">@color/blue</item>
+        <!-- Inactive thumb color switch关闭时的拇指按钮的颜色 -->
+        <item name="colorSwitchThumbNormal">@color/red</item>
+        <!-- Inactive track color(30% transparency) switch关闭时的轨迹的颜色  30%这个颜色 -->
+        <item name="android:colorForeground">@color/colorAccent</item>
+        <!--使用方法：
+        在布局文件中给需要自定义控件中增加app:theme="@style/MySwitch"-->
+    </style>
+</resources>

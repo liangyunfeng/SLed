@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lyf.app.sled"
+    android:versionCode="1"
+    android:versionName="@string/app_versionName"
+    >
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--<uses-permission android:name="android.permission.RECORD_AUDIO"/>-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.lyf.app.sled.activity.MainActivity"
+            android:theme="@style/MainActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lyf.app.sled.activity.LedSettingsActivity"
+            android:theme="@style/ActivityTheme" />
+
+        <activity
+            android:name="com.lyf.app.sled.activity.FullScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity
+            android:name="com.lyf.app.sled.activity.HandWritingActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <activity
+            android:name="com.lyf.app.sled.activity.GlowStickSettingActivity"
+            android:theme="@style/StickActivityTheme" />
+
+        <activity
+            android:name="com.lyf.app.sled.activity.GlowStickActivity"
+            android:theme="@style/ActivityTheme" />
+
+        <activity
+            android:name="com.lyf.app.sled.activity.MusicModeActivity"
+            android:theme="@style/ActivityTheme" />
+
+        <activity
+            android:name="com.lyf.app.sled.activity.MusicActivity"
+            android:theme="@style/ActivityTheme" />
+
+        <activity
+            android:name="com.lyf.app.sled.activity.SparkActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <activity
+            android:name="com.lyf.app.sled.activity.MeteorActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+    </application>
+</manifest>

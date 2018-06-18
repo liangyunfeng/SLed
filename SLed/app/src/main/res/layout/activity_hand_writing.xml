@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.lyf.app.sled.widget.HandWritingView
+        android:id="@+id/hand_surfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/tab_layout"
+        layout="@layout/hand_writing_bottom_tab"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true" />
+
+    <FrameLayout
+        android:id="@+id/hand_writing_preview"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:scaleType="fitXY"
+            android:src="@drawable/start" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_undo_redo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_undo"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_undo_gray" />
+
+        <ImageButton
+            android:id="@+id/btn_redo"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_redo_gray" />
+    </LinearLayout>
+</RelativeLayout>
